@@ -1,0 +1,3325 @@
+{
+  "name": "WhatToCharge Pricing Rates Dataset",
+  "description": "Typical 2026 US price ranges for 195+ service, trade, and maker professions, in each trade's natural unit.",
+  "source": "https://getwhattocharge.com",
+  "license": "CC BY 4.0",
+  "updated": "2026-06-02",
+  "count": 195,
+  "trades": [
+    {
+      "slug": "house-cleaning",
+      "trade": "house cleaning",
+      "category": "Home Services",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 25,
+      "typical_usd": 40,
+      "high_usd": 60,
+      "price_factors": [
+        "Home size and number of bathrooms (bathrooms and kitchens take the longest)",
+        "Standard clean vs. deep clean vs. move-out clean",
+        "How often the client books (weekly clients should get a lower rate than one-offs)",
+        "Your local cost of living and how booked your calendar is"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/house-cleaning"
+    },
+    {
+      "slug": "pressure-washing",
+      "trade": "pressure washing",
+      "category": "Home Services",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 0.15,
+      "typical_usd": 0.35,
+      "high_usd": 0.75,
+      "price_factors": [
+        "Surface type, concrete, wood, vinyl, and brick clean at different speeds",
+        "How dirty it is (heavy mildew or oil stains take longer and need treatment)",
+        "Height and access (second-story siding is slower and riskier)",
+        "Water access and whether you supply it"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/pressure-washing"
+    },
+    {
+      "slug": "lawn-mowing",
+      "trade": "lawn mowing",
+      "category": "Home Services",
+      "unit": "visit",
+      "unit_label": "per visit",
+      "low_usd": 30,
+      "typical_usd": 50,
+      "high_usd": 90,
+      "price_factors": [
+        "Lot size and how much is actual mowable grass",
+        "Obstacles, trees, beds, and tight gates slow you down",
+        "Whether trimming, edging, and blowing are included",
+        "Drive distance between jobs"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/lawn-mowing"
+    },
+    {
+      "slug": "dog-walking",
+      "trade": "dog walking",
+      "category": "Pet & Childcare",
+      "unit": "walk",
+      "unit_label": "per 30-min walk",
+      "low_usd": 15,
+      "typical_usd": 25,
+      "high_usd": 40,
+      "price_factors": [
+        "Walk length (30 vs. 60 minutes)",
+        "Number of dogs from the same household",
+        "Solo walk vs. group walk",
+        "Peak demand windows (midday weekdays book out first)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/dog-walking"
+    },
+    {
+      "slug": "dog-sitting",
+      "trade": "dog sitting",
+      "category": "Pet & Childcare",
+      "unit": "night",
+      "unit_label": "per night",
+      "low_usd": 40,
+      "typical_usd": 60,
+      "high_usd": 95,
+      "price_factors": [
+        "In your home vs. overnight at the client's house",
+        "Number of pets and any medication or special needs",
+        "Holidays (Thanksgiving and December book out and justify a premium)",
+        "Daytime drop-in visits vs. true overnight stays"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/dog-sitting"
+    },
+    {
+      "slug": "babysitting",
+      "trade": "babysitting",
+      "category": "Pet & Childcare",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 15,
+      "typical_usd": 22,
+      "high_usd": 30,
+      "price_factors": [
+        "Number and ages of children",
+        "Your experience and certifications (CPR/first aid)",
+        "Late-night or last-minute bookings",
+        "Extra duties, cooking, bath time, light tidying"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/babysitting"
+    },
+    {
+      "slug": "logo-design",
+      "trade": "logo design",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 150,
+      "typical_usd": 500,
+      "high_usd": 1500,
+      "price_factors": [
+        "Number of initial concepts and revision rounds",
+        "Deliverables, just the logo vs. full brand kit, files, and usage rights",
+        "Client size (a local bakery and a funded startup do not pay the same)",
+        "Turnaround speed"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/logo-design"
+    },
+    {
+      "slug": "freelance-writing",
+      "trade": "freelance writing",
+      "category": "Creative & Freelance",
+      "unit": "word",
+      "unit_label": "per word",
+      "low_usd": 0.1,
+      "typical_usd": 0.3,
+      "high_usd": 1,
+      "price_factors": [
+        "Topic complexity and required research or expertise",
+        "Content type, blog post vs. whitepaper vs. sales copy",
+        "Whether SEO, interviews, or editing rounds are included",
+        "Client budget and publication tier"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/freelance-writing"
+    },
+    {
+      "slug": "freelance-web-development",
+      "trade": "freelance web development",
+      "category": "Creative & Freelance",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 50,
+      "typical_usd": 95,
+      "high_usd": 150,
+      "price_factors": [
+        "Stack and complexity (a brochure site vs. a custom web app)",
+        "Design included vs. building to a provided design",
+        "Integrations, payments, auth, third-party APIs",
+        "Your seniority and portfolio"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/freelance-web-development"
+    },
+    {
+      "slug": "social-media-management",
+      "trade": "social media management",
+      "category": "Creative & Freelance",
+      "unit": "month",
+      "unit_label": "per month (retainer)",
+      "low_usd": 500,
+      "typical_usd": 1500,
+      "high_usd": 4000,
+      "price_factors": [
+        "Number of platforms managed",
+        "Posts per week and whether you create the content or just schedule it",
+        "Strategy, analytics, and reporting",
+        "Paid ad management (usually a separate line item)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/social-media-management"
+    },
+    {
+      "slug": "car-detailing",
+      "trade": "car detailing",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per vehicle",
+      "low_usd": 50,
+      "typical_usd": 120,
+      "high_usd": 250,
+      "price_factors": [
+        "Vehicle size (sedan vs. SUV vs. truck)",
+        "Interior, exterior, or full detail",
+        "Condition, pet hair, stains, and heavy grime add real time",
+        "Add-ons like ceramic coating or engine bay cleaning"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/car-detailing"
+    },
+    {
+      "slug": "crochet-items",
+      "trade": "crochet items",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per item",
+      "low_usd": 15,
+      "typical_usd": 45,
+      "high_usd": 120,
+      "price_factors": [
+        "Yarn cost and quality",
+        "Hours of work (be honest, count them)",
+        "Item complexity and size",
+        "Custom / made-to-order vs. ready-made"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/crochet-items"
+    },
+    {
+      "slug": "interior-painting",
+      "trade": "interior painting",
+      "category": "Home Services",
+      "unit": "room",
+      "unit_label": "per room",
+      "low_usd": 250,
+      "typical_usd": 450,
+      "high_usd": 800,
+      "price_factors": [
+        "Wall condition and prep (patching, sanding, priming)",
+        "Ceiling height and number of coats",
+        "Trim, doors, and detail work",
+        "Paint quality and who supplies it"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/interior-painting"
+    },
+    {
+      "slug": "window-cleaning",
+      "trade": "window cleaning",
+      "category": "Home Services",
+      "unit": "window",
+      "unit_label": "per window",
+      "low_usd": 4,
+      "typical_usd": 8,
+      "high_usd": 15,
+      "price_factors": [
+        "Number and size of panes",
+        "Interior + exterior vs. exterior only",
+        "Screens and tracks",
+        "Height and number of stories"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/window-cleaning"
+    },
+    {
+      "slug": "gutter-cleaning",
+      "trade": "gutter cleaning",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 100,
+      "typical_usd": 175,
+      "high_usd": 300,
+      "price_factors": [
+        "Linear feet of gutter and home size",
+        "Single vs. two-story (and roof pitch)",
+        "Debris level and time since last cleaning",
+        "Gutter guards installed or not"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/gutter-cleaning"
+    },
+    {
+      "slug": "snow-removal",
+      "trade": "snow removal",
+      "category": "Home Services",
+      "unit": "visit",
+      "unit_label": "per visit",
+      "low_usd": 30,
+      "typical_usd": 60,
+      "high_usd": 120,
+      "price_factors": [
+        "Driveway and walkway size",
+        "Snow depth and storm frequency",
+        "Salting / de-icing included",
+        "Per-visit vs. seasonal contract"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/snow-removal"
+    },
+    {
+      "slug": "handyman",
+      "trade": "handyman work",
+      "category": "Home Services",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 50,
+      "typical_usd": 75,
+      "high_usd": 110,
+      "price_factors": [
+        "Task skill level and tools required",
+        "Materials supplied",
+        "Your experience and licensing",
+        "Travel and job stacking"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/handyman"
+    },
+    {
+      "slug": "pet-grooming",
+      "trade": "pet grooming",
+      "category": "Pet & Childcare",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 40,
+      "typical_usd": 70,
+      "high_usd": 120,
+      "price_factors": [
+        "Size, breed, and coat type",
+        "Matting and coat condition",
+        "Temperament and handling difficulty",
+        "Add-ons: nails, teeth, de-shedding"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/pet-grooming"
+    },
+    {
+      "slug": "video-editing",
+      "trade": "video editing",
+      "category": "Creative & Freelance",
+      "unit": "minute",
+      "unit_label": "per finished minute",
+      "low_usd": 30,
+      "typical_usd": 75,
+      "high_usd": 200,
+      "price_factors": [
+        "Volume of raw footage to sort",
+        "Complexity: motion graphics, color grade, sound design",
+        "Number of revision rounds",
+        "Turnaround speed"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/video-editing"
+    },
+    {
+      "slug": "bookkeeping",
+      "trade": "bookkeeping services",
+      "category": "Creative & Freelance",
+      "unit": "month",
+      "unit_label": "per month",
+      "low_usd": 250,
+      "typical_usd": 600,
+      "high_usd": 1500,
+      "price_factors": [
+        "Monthly transaction volume",
+        "Number of accounts and reconciliations",
+        "Payroll included or not",
+        "Cleanup of prior, disorganized books"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/bookkeeping"
+    },
+    {
+      "slug": "virtual-assistant",
+      "trade": "virtual assistant work",
+      "category": "Creative & Freelance",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 20,
+      "typical_usd": 35,
+      "high_usd": 60,
+      "price_factors": [
+        "Skill level and specialized tasks (design, ads, dev)",
+        "Hours committed per month",
+        "Time zone and availability",
+        "Tools and software you bring"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/virtual-assistant"
+    },
+    {
+      "slug": "personal-training",
+      "trade": "personal training",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 40,
+      "typical_usd": 70,
+      "high_usd": 120,
+      "price_factors": [
+        "In-person vs. online coaching",
+        "Your certifications and specialty",
+        "Session length",
+        "Package size and commitment"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/personal-training"
+    },
+    {
+      "slug": "makeup-artist",
+      "trade": "makeup artistry",
+      "category": "Beauty & Wellness",
+      "unit": "face",
+      "unit_label": "per face / event",
+      "low_usd": 60,
+      "typical_usd": 120,
+      "high_usd": 250,
+      "price_factors": [
+        "Occasion (bridal commands a premium)",
+        "Travel to the client",
+        "Trial sessions included",
+        "Add-ons: lashes, airbrush"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/makeup-artist"
+    },
+    {
+      "slug": "portrait-photography",
+      "trade": "portrait photography",
+      "category": "Events & Photography",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 150,
+      "typical_usd": 350,
+      "high_usd": 800,
+      "price_factors": [
+        "Session length and location",
+        "Number of edited images delivered",
+        "Prints, albums, and digital rights",
+        "Your experience and demand"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/portrait-photography"
+    },
+    {
+      "slug": "wedding-photography",
+      "trade": "wedding photography",
+      "category": "Events & Photography",
+      "unit": "event",
+      "unit_label": "per wedding",
+      "low_usd": 1500,
+      "typical_usd": 3000,
+      "high_usd": 7000,
+      "price_factors": [
+        "Hours of coverage",
+        "Second shooter",
+        "Album and print products",
+        "Engagement session and your experience"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/wedding-photography"
+    },
+    {
+      "slug": "tutoring",
+      "trade": "tutoring",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 25,
+      "typical_usd": 45,
+      "high_usd": 80,
+      "price_factors": [
+        "Subject and grade level",
+        "Test prep vs. homework help",
+        "Your credentials and results",
+        "In-person vs. online"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/tutoring"
+    },
+    {
+      "slug": "music-lessons",
+      "trade": "music lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 30,
+      "typical_usd": 50,
+      "high_usd": 90,
+      "price_factors": [
+        "Instrument and your experience level",
+        "Lesson length (30 vs. 60 min)",
+        "In-person vs. online",
+        "Recurring vs. one-off"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/music-lessons"
+    },
+    {
+      "slug": "carpet-cleaning",
+      "trade": "carpet cleaning",
+      "category": "Home Services",
+      "unit": "room",
+      "unit_label": "per room",
+      "low_usd": 30,
+      "typical_usd": 50,
+      "high_usd": 80,
+      "price_factors": [
+        "Number and size of rooms",
+        "Stain severity and pet odor treatment",
+        "Stairs and hallways (priced separately by most pros)",
+        "Carpet type and how long since the last clean"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/carpet-cleaning"
+    },
+    {
+      "slug": "junk-removal",
+      "trade": "junk removal",
+      "category": "Home Services",
+      "unit": "load",
+      "unit_label": "per load",
+      "low_usd": 100,
+      "typical_usd": 250,
+      "high_usd": 600,
+      "price_factors": [
+        "Truck volume the load fills (1/4, 1/2, full)",
+        "Dump and landfill fees in your area",
+        "Heavy or special items (appliances, mattresses, tires)",
+        "Stairs, distance to the truck, and labor"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/junk-removal"
+    },
+    {
+      "slug": "pool-cleaning",
+      "trade": "pool cleaning",
+      "category": "Home Services",
+      "unit": "month",
+      "unit_label": "per month",
+      "low_usd": 80,
+      "typical_usd": 150,
+      "high_usd": 250,
+      "price_factors": [
+        "Pool size and type (chlorine vs. salt)",
+        "Weekly vs. bi-weekly service",
+        "Chemicals included or billed separately",
+        "Season (year-round vs. summer-only markets)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/pool-cleaning"
+    },
+    {
+      "slug": "moving-help",
+      "trade": "moving help",
+      "category": "Home Services",
+      "unit": "hour",
+      "unit_label": "per hour (2 movers)",
+      "low_usd": 80,
+      "typical_usd": 120,
+      "high_usd": 200,
+      "price_factors": [
+        "Crew size (number of movers)",
+        "Stairs, elevators, and long carries",
+        "Heavy special items (piano, safe, appliances)",
+        "Whether you supply the truck"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/moving-help"
+    },
+    {
+      "slug": "3d-printing",
+      "trade": "3d printing",
+      "category": "Makers & Crafts",
+      "unit": "print",
+      "unit_label": "per print",
+      "low_usd": 10,
+      "typical_usd": 35,
+      "high_usd": 150,
+      "price_factors": [
+        "Filament or resin used (grams) and material type",
+        "Print time (machine hours tie up your printer)",
+        "Design or modeling work vs. printing a provided file",
+        "Post-processing: supports, sanding, painting"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/3d-printing"
+    },
+    {
+      "slug": "custom-cakes",
+      "trade": "custom cakes",
+      "category": "Makers & Crafts",
+      "unit": "cake",
+      "unit_label": "per cake",
+      "low_usd": 50,
+      "typical_usd": 150,
+      "high_usd": 500,
+      "price_factors": [
+        "Number of servings (base price per slice)",
+        "Design complexity: tiers, sculpting, sugar flowers",
+        "Special diets (gluten-free, vegan)",
+        "Delivery and setup for tiered cakes"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/custom-cakes"
+    },
+    {
+      "slug": "candle-making",
+      "trade": "handmade candles",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per candle",
+      "low_usd": 12,
+      "typical_usd": 25,
+      "high_usd": 50,
+      "price_factors": [
+        "Wax type, fragrance load, and vessel quality",
+        "Size and burn time",
+        "Labor and batch size (per-unit time drops at scale)",
+        "Branding and whether it is retail or wholesale"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/candle-making"
+    },
+    {
+      "slug": "custom-woodworking",
+      "trade": "custom woodworking",
+      "category": "Makers & Crafts",
+      "unit": "project",
+      "unit_label": "per piece",
+      "low_usd": 150,
+      "typical_usd": 600,
+      "high_usd": 2500,
+      "price_factors": [
+        "Wood species and material cost",
+        "Shop hours including milling, joinery, and finishing",
+        "Design complexity and custom dimensions",
+        "Finish quality and hardware"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/custom-woodworking"
+    },
+    {
+      "slug": "massage-therapy",
+      "trade": "massage therapy",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 60,
+      "typical_usd": 100,
+      "high_usd": 180,
+      "price_factors": [
+        "Session length (60 vs. 90 minutes)",
+        "Modality and specialization",
+        "In-studio vs. mobile / in-home",
+        "Your certifications and demand"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/massage-therapy"
+    },
+    {
+      "slug": "hair-styling",
+      "trade": "hair styling",
+      "category": "Beauty & Wellness",
+      "unit": "service",
+      "unit_label": "per service",
+      "low_usd": 40,
+      "typical_usd": 90,
+      "high_usd": 250,
+      "price_factors": [
+        "Service type: cut, color, highlights, treatment",
+        "Hair length and thickness",
+        "Product cost (especially color)",
+        "Your experience and salon location"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/hair-styling"
+    },
+    {
+      "slug": "nail-technician",
+      "trade": "nail services",
+      "category": "Beauty & Wellness",
+      "unit": "set",
+      "unit_label": "per set",
+      "low_usd": 30,
+      "typical_usd": 55,
+      "high_usd": 120,
+      "price_factors": [
+        "Service: manicure, gel, acrylic, dip, extensions",
+        "Nail art complexity and length",
+        "Removal and repair of previous work",
+        "Mobile vs. in-salon"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/nail-technician"
+    },
+    {
+      "slug": "graphic-design",
+      "trade": "graphic design",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 100,
+      "typical_usd": 500,
+      "high_usd": 2500,
+      "price_factors": [
+        "Deliverable type and quantity",
+        "Number of concepts and revision rounds",
+        "Usage and licensing (print run, ad spend)",
+        "Client size and turnaround speed"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/graphic-design"
+    },
+    {
+      "slug": "seo-services",
+      "trade": "SEO services",
+      "category": "Creative & Freelance",
+      "unit": "month",
+      "unit_label": "per month (retainer)",
+      "low_usd": 750,
+      "typical_usd": 2000,
+      "high_usd": 6000,
+      "price_factors": [
+        "Scope: technical, content, link building, local",
+        "Site size and competitiveness of the niche",
+        "Deliverables per month (content volume, reporting)",
+        "One-time audit / setup vs. ongoing retainer"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/seo-services"
+    },
+    {
+      "slug": "voice-over",
+      "trade": "voice over work",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 100,
+      "typical_usd": 350,
+      "high_usd": 1500,
+      "price_factors": [
+        "Script length (word or finished-minute count)",
+        "Usage: internal, web, broadcast, national ad",
+        "Licensing term and exclusivity",
+        "Revisions and directed sessions"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/voice-over"
+    },
+    {
+      "slug": "dj-services",
+      "trade": "DJ services",
+      "category": "Events & Photography",
+      "unit": "event",
+      "unit_label": "per event",
+      "low_usd": 400,
+      "typical_usd": 1200,
+      "high_usd": 3000,
+      "price_factors": [
+        "Event type (wedding commands a premium)",
+        "Hours of coverage",
+        "Equipment: sound, lighting, extra speakers, MC duties",
+        "Travel and setup time"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/dj-services"
+    },
+    {
+      "slug": "catering",
+      "trade": "catering",
+      "category": "Events & Photography",
+      "unit": "person",
+      "unit_label": "per person",
+      "low_usd": 20,
+      "typical_usd": 45,
+      "high_usd": 120,
+      "price_factors": [
+        "Service style: drop-off, buffet, plated, full-service",
+        "Menu complexity and ingredient cost",
+        "Staffing: servers, bartenders, cleanup",
+        "Rentals, linens, and guest count"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/catering"
+    },
+    {
+      "slug": "life-coaching",
+      "trade": "life coaching",
+      "category": "Lessons & Coaching",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 75,
+      "typical_usd": 150,
+      "high_usd": 350,
+      "price_factors": [
+        "Your niche and track record (executive coaching pays most)",
+        "Session length and frequency",
+        "Package length (single vs. 3-6 month program)",
+        "Group vs. one-on-one"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/life-coaching"
+    },
+    {
+      "slug": "yoga-instruction",
+      "trade": "yoga instruction",
+      "category": "Lessons & Coaching",
+      "unit": "class",
+      "unit_label": "per class",
+      "low_usd": 40,
+      "typical_usd": 75,
+      "high_usd": 150,
+      "price_factors": [
+        "Private session vs. studio group class",
+        "Class length and group size",
+        "Travel for in-home private sessions",
+        "Your certifications and specialty"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/yoga-instruction"
+    },
+    {
+      "slug": "electrician",
+      "trade": "electrical work",
+      "category": "Trades & Repair",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 60,
+      "typical_usd": 100,
+      "high_usd": 150,
+      "price_factors": [
+        "Your license level (journeyman vs. master)",
+        "Permits and inspection requirements",
+        "Service-call minimum and diagnostic fee",
+        "Materials and panel or wiring complexity"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/electrician"
+    },
+    {
+      "slug": "plumber",
+      "trade": "plumbing work",
+      "category": "Trades & Repair",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 70,
+      "typical_usd": 110,
+      "high_usd": 170,
+      "price_factors": [
+        "License and emergency vs. scheduled call",
+        "Service-call minimum and diagnostic fee",
+        "Parts, fixtures, and access difficulty",
+        "Permits for larger work"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/plumber"
+    },
+    {
+      "slug": "appliance-repair",
+      "trade": "appliance repair",
+      "category": "Trades & Repair",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 100,
+      "typical_usd": 200,
+      "high_usd": 400,
+      "price_factors": [
+        "Diagnostic / service-call fee",
+        "Appliance type and brand (parts availability)",
+        "Parts cost and labor time",
+        "Travel and whether parts must be ordered"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/appliance-repair"
+    },
+    {
+      "slug": "computer-repair",
+      "trade": "computer repair",
+      "category": "Trades & Repair",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 50,
+      "typical_usd": 85,
+      "high_usd": 150,
+      "price_factors": [
+        "Service type: hardware, software, data recovery",
+        "On-site vs. drop-off vs. remote",
+        "Parts and data recovery complexity",
+        "Turnaround speed (rush fees)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/computer-repair"
+    },
+    {
+      "slug": "exterior-painting",
+      "trade": "exterior painting",
+      "category": "Home Services",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 1500,
+      "typical_usd": 4000,
+      "high_usd": 10000,
+      "price_factors": [
+        "Home size, stories, and surface area",
+        "Surface type (wood, stucco, vinyl, brick)",
+        "Prep and repairs (scraping, caulking, priming)",
+        "Paint quality and number of coats"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/exterior-painting"
+    },
+    {
+      "slug": "landscaping",
+      "trade": "landscaping",
+      "category": "Home Services",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 500,
+      "typical_usd": 3000,
+      "high_usd": 15000,
+      "price_factors": [
+        "Yard size and terrain",
+        "Scope: cleanup, planting, full redesign, hardscaping",
+        "Materials and plants",
+        "Equipment and crew time"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/landscaping"
+    },
+    {
+      "slug": "tree-trimming",
+      "trade": "tree trimming",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per tree / job",
+      "low_usd": 150,
+      "typical_usd": 500,
+      "high_usd": 2000,
+      "price_factors": [
+        "Tree height and trunk size",
+        "Proximity to structures and power lines",
+        "Trimming vs. full removal",
+        "Debris hauling and stump grinding"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/tree-trimming"
+    },
+    {
+      "slug": "drywall-repair",
+      "trade": "drywall repair",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 100,
+      "typical_usd": 300,
+      "high_usd": 900,
+      "price_factors": [
+        "Hole size and number of patches",
+        "Texture matching (the hard part)",
+        "Ceiling vs. wall (ceilings are slower)",
+        "Whether painting is included"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/drywall-repair"
+    },
+    {
+      "slug": "flooring-installation",
+      "trade": "flooring installation",
+      "category": "Home Services",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 2,
+      "typical_usd": 5,
+      "high_usd": 12,
+      "price_factors": [
+        "Material (laminate, vinyl, hardwood, tile)",
+        "Subfloor condition and prep",
+        "Room layout and cut complexity",
+        "Removal and disposal of old flooring"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/flooring-installation"
+    },
+    {
+      "slug": "pest-control",
+      "trade": "pest control",
+      "category": "Home Services",
+      "unit": "treatment",
+      "unit_label": "per treatment",
+      "low_usd": 100,
+      "typical_usd": 175,
+      "high_usd": 400,
+      "price_factors": [
+        "Pest type (general, termites, bedbugs, rodents)",
+        "Home size and severity of infestation",
+        "One-time vs. recurring plan",
+        "Interior, exterior, or full treatment"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/pest-control"
+    },
+    {
+      "slug": "fence-installation",
+      "trade": "fence installation",
+      "category": "Home Services",
+      "unit": "ft",
+      "unit_label": "per linear foot",
+      "low_usd": 15,
+      "typical_usd": 35,
+      "high_usd": 70,
+      "price_factors": [
+        "Material (chain-link, wood, vinyl, aluminum)",
+        "Height and length",
+        "Terrain and slope (sloped yards are slower)",
+        "Gates and post setting in concrete"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/fence-installation"
+    },
+    {
+      "slug": "holiday-light-installation",
+      "trade": "holiday light installation",
+      "category": "Home Services",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 300,
+      "typical_usd": 700,
+      "high_usd": 2000,
+      "price_factors": [
+        "Roofline length and roof height",
+        "Whether you supply the lights or use theirs",
+        "Design complexity (roof, trees, yard displays)",
+        "Takedown and storage included"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/holiday-light-installation"
+    },
+    {
+      "slug": "hvac-repair",
+      "trade": "HVAC repair",
+      "category": "Trades & Repair",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 150,
+      "typical_usd": 350,
+      "high_usd": 1200,
+      "price_factors": [
+        "Diagnostic / service-call fee",
+        "Part needed (capacitor vs. compressor)",
+        "Emergency or peak-season timing",
+        "System age and accessibility"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/hvac-repair"
+    },
+    {
+      "slug": "welding",
+      "trade": "welding",
+      "category": "Trades & Repair",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 50,
+      "typical_usd": 90,
+      "high_usd": 175,
+      "price_factors": [
+        "Material and thickness",
+        "Shop work vs. mobile / on-site",
+        "Certification (structural, pipe)",
+        "Fabrication complexity"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/welding"
+    },
+    {
+      "slug": "locksmith",
+      "trade": "locksmith services",
+      "category": "Trades & Repair",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 75,
+      "typical_usd": 150,
+      "high_usd": 350,
+      "price_factors": [
+        "Service call plus labor",
+        "Lock type (deadbolt, smart, automotive)",
+        "Emergency or after-hours timing",
+        "Rekey vs. full replacement"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/locksmith"
+    },
+    {
+      "slug": "tv-mounting",
+      "trade": "TV mounting",
+      "category": "Trades & Repair",
+      "unit": "job",
+      "unit_label": "per TV",
+      "low_usd": 100,
+      "typical_usd": 175,
+      "high_usd": 400,
+      "price_factors": [
+        "TV size and weight",
+        "Wall type (drywall, brick, stone)",
+        "Cord and cable concealment",
+        "Whether the mount is supplied"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/tv-mounting"
+    },
+    {
+      "slug": "furniture-assembly",
+      "trade": "furniture assembly",
+      "category": "Trades & Repair",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 40,
+      "typical_usd": 65,
+      "high_usd": 120,
+      "price_factors": [
+        "Item complexity (shelf vs. wardrobe)",
+        "Number of items",
+        "Brand (some flat-pack is notoriously slow)",
+        "Packaging haul-away"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/furniture-assembly"
+    },
+    {
+      "slug": "auto-repair",
+      "trade": "auto repair",
+      "category": "Trades & Repair",
+      "unit": "hour",
+      "unit_label": "per labor hour",
+      "low_usd": 80,
+      "typical_usd": 120,
+      "high_usd": 200,
+      "price_factors": [
+        "Shop labor rate",
+        "Parts cost and standard markup",
+        "Diagnostic time",
+        "Vehicle make (European and luxury run higher)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/auto-repair"
+    },
+    {
+      "slug": "dog-training",
+      "trade": "dog training",
+      "category": "Pet & Childcare",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 50,
+      "typical_usd": 100,
+      "high_usd": 200,
+      "price_factors": [
+        "Private vs. group classes",
+        "Basic obedience vs. behavioral issues",
+        "Program length",
+        "Board-and-train (you house the dog)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/dog-training"
+    },
+    {
+      "slug": "pet-sitting",
+      "trade": "pet sitting",
+      "category": "Pet & Childcare",
+      "unit": "visit",
+      "unit_label": "per visit",
+      "low_usd": 18,
+      "typical_usd": 30,
+      "high_usd": 55,
+      "price_factors": [
+        "Drop-in visit vs. overnight stay",
+        "Number and type of pets",
+        "Medication or special needs",
+        "Holidays and peak travel weeks"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/pet-sitting"
+    },
+    {
+      "slug": "house-sitting",
+      "trade": "house sitting",
+      "category": "Pet & Childcare",
+      "unit": "night",
+      "unit_label": "per night",
+      "low_usd": 40,
+      "typical_usd": 75,
+      "high_usd": 150,
+      "price_factors": [
+        "Home size and location",
+        "Pets, plants, or a pool to maintain",
+        "Length of the stay",
+        "Mail, security, and errands"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/house-sitting"
+    },
+    {
+      "slug": "web-design",
+      "trade": "web design",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 800,
+      "typical_usd": 3500,
+      "high_usd": 12000,
+      "price_factors": [
+        "Number of pages",
+        "Custom design vs. template customization",
+        "Copywriting and content provided or not",
+        "CMS, e-commerce, and integrations"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/web-design"
+    },
+    {
+      "slug": "copywriting",
+      "trade": "copywriting",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 200,
+      "typical_usd": 1000,
+      "high_usd": 5000,
+      "price_factors": [
+        "Copy type (web, email, ads, sales page)",
+        "Research and audience depth",
+        "Brand voice development",
+        "Revision rounds"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/copywriting"
+    },
+    {
+      "slug": "translation",
+      "trade": "translation",
+      "category": "Creative & Freelance",
+      "unit": "word",
+      "unit_label": "per word",
+      "low_usd": 0.08,
+      "typical_usd": 0.15,
+      "high_usd": 0.3,
+      "price_factors": [
+        "Language pair (rare pairs pay more)",
+        "Subject matter (legal, medical, technical)",
+        "Turnaround speed",
+        "Certification or notarization"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/translation"
+    },
+    {
+      "slug": "transcription",
+      "trade": "transcription",
+      "category": "Creative & Freelance",
+      "unit": "minute",
+      "unit_label": "per audio minute",
+      "low_usd": 1,
+      "typical_usd": 2,
+      "high_usd": 4,
+      "price_factors": [
+        "Audio quality and background noise",
+        "Number of speakers and crosstalk",
+        "Accents and technical jargon",
+        "Turnaround and verbatim vs. clean copy"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/transcription"
+    },
+    {
+      "slug": "resume-writing",
+      "trade": "resume writing",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per resume",
+      "low_usd": 100,
+      "typical_usd": 250,
+      "high_usd": 600,
+      "price_factors": [
+        "Career level (entry, professional, executive)",
+        "Package (resume, cover letter, LinkedIn)",
+        "Industry and specialization",
+        "Turnaround speed"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/resume-writing"
+    },
+    {
+      "slug": "email-marketing",
+      "trade": "email marketing",
+      "category": "Creative & Freelance",
+      "unit": "month",
+      "unit_label": "per month (retainer)",
+      "low_usd": 500,
+      "typical_usd": 2000,
+      "high_usd": 6000,
+      "price_factors": [
+        "Campaigns and sends per month",
+        "List size and segmentation",
+        "Automation and flow setup",
+        "Copy and design included or not"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/email-marketing"
+    },
+    {
+      "slug": "app-development",
+      "trade": "app development",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 5000,
+      "typical_usd": 35000,
+      "high_usd": 150000,
+      "price_factors": [
+        "Platform (iOS, Android, cross-platform)",
+        "Feature complexity",
+        "Backend, APIs, and integrations",
+        "Design included or provided"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/app-development"
+    },
+    {
+      "slug": "ui-ux-design",
+      "trade": "UI/UX design",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 1000,
+      "typical_usd": 5000,
+      "high_usd": 25000,
+      "price_factors": [
+        "Scope (number of screens and flows)",
+        "User research and testing",
+        "Design system and components",
+        "Prototype fidelity"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/ui-ux-design"
+    },
+    {
+      "slug": "jewelry-making",
+      "trade": "handmade jewelry",
+      "category": "Makers & Crafts",
+      "unit": "piece",
+      "unit_label": "per piece",
+      "low_usd": 20,
+      "typical_usd": 60,
+      "high_usd": 300,
+      "price_factors": [
+        "Materials (silver, gold, gemstones)",
+        "Labor and technique",
+        "Custom commission vs. ready-made",
+        "Size and complexity"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/jewelry-making"
+    },
+    {
+      "slug": "pottery",
+      "trade": "handmade pottery",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per piece",
+      "low_usd": 20,
+      "typical_usd": 50,
+      "high_usd": 150,
+      "price_factors": [
+        "Size and complexity",
+        "Glaze and firing cost",
+        "Wheel-thrown vs. hand-built",
+        "Functional vs. decorative"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/pottery"
+    },
+    {
+      "slug": "soap-making",
+      "trade": "handmade soap",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per bar",
+      "low_usd": 5,
+      "typical_usd": 8,
+      "high_usd": 15,
+      "price_factors": [
+        "Ingredients (essential oils, botanicals)",
+        "Bar size and weight",
+        "Batch size (per-unit cost drops at scale)",
+        "Packaging and branding"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/soap-making"
+    },
+    {
+      "slug": "sewing-alterations",
+      "trade": "sewing & alterations",
+      "category": "Makers & Crafts",
+      "unit": "job",
+      "unit_label": "per item",
+      "low_usd": 10,
+      "typical_usd": 25,
+      "high_usd": 80,
+      "price_factors": [
+        "Garment type and complexity",
+        "Simple hem vs. full resize or reconstruction",
+        "Fabric (delicate, beaded, leather)",
+        "Rush turnaround"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/sewing-alterations"
+    },
+    {
+      "slug": "custom-tshirts",
+      "trade": "custom t-shirts",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per shirt",
+      "low_usd": 8,
+      "typical_usd": 18,
+      "high_usd": 40,
+      "price_factors": [
+        "Print method (screen, DTG, vinyl, embroidery)",
+        "Quantity (bulk lowers per-unit cost)",
+        "Number of colors and print locations",
+        "Garment quality"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/custom-tshirts"
+    },
+    {
+      "slug": "lash-extensions",
+      "trade": "lash extensions",
+      "category": "Beauty & Wellness",
+      "unit": "set",
+      "unit_label": "per set",
+      "low_usd": 80,
+      "typical_usd": 150,
+      "high_usd": 300,
+      "price_factors": [
+        "Full set vs. fill",
+        "Style (classic, hybrid, volume)",
+        "Lash quality and supplies",
+        "Your experience and speed"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/lash-extensions"
+    },
+    {
+      "slug": "facials",
+      "trade": "facials",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 60,
+      "typical_usd": 100,
+      "high_usd": 200,
+      "price_factors": [
+        "Facial type (basic, advanced, chemical peel)",
+        "Products and equipment used",
+        "Add-ons (extractions, LED, masks)",
+        "Duration"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/facials"
+    },
+    {
+      "slug": "barber",
+      "trade": "barber services",
+      "category": "Beauty & Wellness",
+      "unit": "service",
+      "unit_label": "per cut",
+      "low_usd": 20,
+      "typical_usd": 35,
+      "high_usd": 75,
+      "price_factors": [
+        "Cut complexity and style",
+        "Beard trim and hot-towel shave add-ons",
+        "Location and clientele",
+        "Your experience and chair demand"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/barber"
+    },
+    {
+      "slug": "spray-tanning",
+      "trade": "spray tanning",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 30,
+      "typical_usd": 50,
+      "high_usd": 90,
+      "price_factors": [
+        "Mobile (in-home) vs. in-salon",
+        "Solution quality",
+        "Event prep (bridal, competition)",
+        "Single session vs. package"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/spray-tanning"
+    },
+    {
+      "slug": "event-planning",
+      "trade": "event planning",
+      "category": "Events & Photography",
+      "unit": "event",
+      "unit_label": "per event",
+      "low_usd": 1000,
+      "typical_usd": 4000,
+      "high_usd": 15000,
+      "price_factors": [
+        "Event size and complexity",
+        "Full planning vs. day-of coordination",
+        "Vendor sourcing and management",
+        "Your experience and the event's stakes"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/event-planning"
+    },
+    {
+      "slug": "real-estate-photography",
+      "trade": "real estate photography",
+      "category": "Events & Photography",
+      "unit": "shoot",
+      "unit_label": "per shoot",
+      "low_usd": 150,
+      "typical_usd": 300,
+      "high_usd": 800,
+      "price_factors": [
+        "Property size and square footage",
+        "Add-ons (drone, video, twilight, 3D tour)",
+        "Turnaround speed",
+        "Travel"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/real-estate-photography"
+    },
+    {
+      "slug": "product-photography",
+      "trade": "product photography",
+      "category": "Events & Photography",
+      "unit": "image",
+      "unit_label": "per image",
+      "low_usd": 15,
+      "typical_usd": 40,
+      "high_usd": 150,
+      "price_factors": [
+        "Number of products and images",
+        "Styling, props, and set design",
+        "White-background vs. lifestyle",
+        "Usage and licensing"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/product-photography"
+    },
+    {
+      "slug": "bartending",
+      "trade": "bartending",
+      "category": "Events & Photography",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 30,
+      "typical_usd": 50,
+      "high_usd": 90,
+      "price_factors": [
+        "Experience and certifications",
+        "Guest count and number of bartenders",
+        "Mobile bar setup and equipment",
+        "Whether you supply alcohol and mixers"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/bartending"
+    },
+    {
+      "slug": "dance-lessons",
+      "trade": "dance lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 40,
+      "typical_usd": 70,
+      "high_usd": 130,
+      "price_factors": [
+        "Private vs. group lessons",
+        "Style and skill level",
+        "Wedding or event choreography",
+        "Studio vs. in-home"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/dance-lessons"
+    },
+    {
+      "slug": "driving-lessons",
+      "trade": "driving lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 40,
+      "typical_usd": 65,
+      "high_usd": 120,
+      "price_factors": [
+        "Insured dual-control car provided",
+        "Single lesson vs. package",
+        "Road-test preparation",
+        "Pickup and drop-off"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/driving-lessons"
+    },
+    {
+      "slug": "roofing",
+      "trade": "roofing",
+      "category": "Construction & Renovation",
+      "unit": "job",
+      "unit_label": "per roof",
+      "low_usd": 5000,
+      "typical_usd": 9000,
+      "high_usd": 25000,
+      "price_factors": [
+        "Roof size, pitch, and number of facets",
+        "Material (asphalt, metal, tile)",
+        "Tear-off of the old roof and layers",
+        "Decking repair and underlayment"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/roofing"
+    },
+    {
+      "slug": "siding-installation",
+      "trade": "siding installation",
+      "category": "Construction & Renovation",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 4,
+      "typical_usd": 8,
+      "high_usd": 13,
+      "price_factors": [
+        "Material (vinyl, fiber cement, wood)",
+        "Home size and number of stories",
+        "Removal and disposal of old siding",
+        "Trim, corners, and house wrap detail"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/siding-installation"
+    },
+    {
+      "slug": "masonry",
+      "trade": "masonry work",
+      "category": "Construction & Renovation",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 800,
+      "typical_usd": 3000,
+      "high_usd": 15000,
+      "price_factors": [
+        "Material (brick, stone, block)",
+        "Structural vs. decorative work",
+        "Repair (repointing) vs. new build",
+        "Access and working height"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/masonry"
+    },
+    {
+      "slug": "concrete-work",
+      "trade": "concrete work",
+      "category": "Construction & Renovation",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 6,
+      "typical_usd": 9,
+      "high_usd": 18,
+      "price_factors": [
+        "Flatwork vs. structural pour",
+        "Finish (broom, stamped, colored)",
+        "Excavation, forms, and base prep",
+        "Slab thickness and rebar"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/concrete-work"
+    },
+    {
+      "slug": "tile-installation",
+      "trade": "tile installation",
+      "category": "Construction & Renovation",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 7,
+      "typical_usd": 12,
+      "high_usd": 25,
+      "price_factors": [
+        "Tile type and size (large format and mosaic are slower)",
+        "Surface prep and waterproofing",
+        "Layout and pattern complexity",
+        "Demo of old tile"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/tile-installation"
+    },
+    {
+      "slug": "cabinet-installation",
+      "trade": "cabinet installation",
+      "category": "Construction & Renovation",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 200,
+      "typical_usd": 1200,
+      "high_usd": 4000,
+      "price_factors": [
+        "Number of cabinets and linear feet",
+        "Stock vs. custom cabinets",
+        "Leveling on uneven walls and floors",
+        "Crown molding and trim"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/cabinet-installation"
+    },
+    {
+      "slug": "countertop-installation",
+      "trade": "countertop installation",
+      "category": "Construction & Renovation",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 40,
+      "typical_usd": 75,
+      "high_usd": 200,
+      "price_factors": [
+        "Material (laminate, quartz, granite, marble)",
+        "Edge profile and cutouts (sink, cooktop)",
+        "Templating and seam placement",
+        "Removal of old countertops"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/countertop-installation"
+    },
+    {
+      "slug": "deck-building",
+      "trade": "deck building",
+      "category": "Construction & Renovation",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 25,
+      "typical_usd": 40,
+      "high_usd": 70,
+      "price_factors": [
+        "Material (pressure-treated, composite, hardwood)",
+        "Size and height above grade",
+        "Railings and stairs",
+        "Permits and footings"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/deck-building"
+    },
+    {
+      "slug": "kitchen-remodeling",
+      "trade": "kitchen remodeling",
+      "category": "Construction & Renovation",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 15000,
+      "typical_usd": 35000,
+      "high_usd": 90000,
+      "price_factors": [
+        "Scope (cosmetic refresh vs. full gut)",
+        "Cabinet, countertop, and appliance tier",
+        "Layout, plumbing, and electrical changes",
+        "Finishes and fixtures"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/kitchen-remodeling"
+    },
+    {
+      "slug": "bathroom-remodeling",
+      "trade": "bathroom remodeling",
+      "category": "Construction & Renovation",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 8000,
+      "typical_usd": 18000,
+      "high_usd": 45000,
+      "price_factors": [
+        "Size and layout changes",
+        "Fixture and tile tier",
+        "Plumbing relocation",
+        "Waterproofing and ventilation"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/bathroom-remodeling"
+    },
+    {
+      "slug": "insulation-installation",
+      "trade": "insulation installation",
+      "category": "Construction & Renovation",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 1,
+      "typical_usd": 2,
+      "high_usd": 4,
+      "price_factors": [
+        "Type (batt, blown-in, spray foam)",
+        "Area (attic, walls, crawlspace)",
+        "Target R-value",
+        "Removal of old insulation"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/insulation-installation"
+    },
+    {
+      "slug": "garage-door-installation",
+      "trade": "garage door installation",
+      "category": "Construction & Renovation",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 600,
+      "typical_usd": 1200,
+      "high_usd": 3500,
+      "price_factors": [
+        "Door material and insulation",
+        "Single vs. double door",
+        "Opener included",
+        "Haul-away of the old door"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/garage-door-installation"
+    },
+    {
+      "slug": "hardwood-floor-refinishing",
+      "trade": "hardwood floor refinishing",
+      "category": "Construction & Renovation",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 3,
+      "typical_usd": 5,
+      "high_usd": 8,
+      "price_factors": [
+        "Floor condition and sanding passes",
+        "Stain vs. natural",
+        "Finish (oil vs. water-based poly)",
+        "Area and furniture moving"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/hardwood-floor-refinishing"
+    },
+    {
+      "slug": "epoxy-flooring",
+      "trade": "epoxy flooring",
+      "category": "Construction & Renovation",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 3,
+      "typical_usd": 7,
+      "high_usd": 12,
+      "price_factors": [
+        "Surface prep (grinding, crack repair)",
+        "System (single coat, flake, metallic)",
+        "Square footage",
+        "Residential vs. commercial"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/epoxy-flooring"
+    },
+    {
+      "slug": "mobile-car-wash",
+      "trade": "mobile car wash",
+      "category": "Auto & Transport",
+      "unit": "job",
+      "unit_label": "per vehicle",
+      "low_usd": 25,
+      "typical_usd": 50,
+      "high_usd": 120,
+      "price_factors": [
+        "Vehicle size",
+        "Wash only vs. wash and wax",
+        "Whether you supply water and power",
+        "Single vehicle vs. fleet"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/mobile-car-wash"
+    },
+    {
+      "slug": "window-tinting",
+      "trade": "window tinting",
+      "category": "Auto & Transport",
+      "unit": "job",
+      "unit_label": "per vehicle",
+      "low_usd": 150,
+      "typical_usd": 300,
+      "high_usd": 800,
+      "price_factors": [
+        "Vehicle size and number of windows",
+        "Film quality (dyed vs. ceramic)",
+        "Full car vs. front two windows",
+        "Removal of old tint"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/window-tinting"
+    },
+    {
+      "slug": "car-wrapping",
+      "trade": "car wrapping",
+      "category": "Auto & Transport",
+      "unit": "project",
+      "unit_label": "per vehicle",
+      "low_usd": 1500,
+      "typical_usd": 3000,
+      "high_usd": 6000,
+      "price_factors": [
+        "Vehicle size and body curves",
+        "Full vs. partial wrap",
+        "Film type (gloss, matte, color-shift)",
+        "Design and print for commercial graphics"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/car-wrapping"
+    },
+    {
+      "slug": "ceramic-coating",
+      "trade": "ceramic coating",
+      "category": "Auto & Transport",
+      "unit": "job",
+      "unit_label": "per vehicle",
+      "low_usd": 500,
+      "typical_usd": 1000,
+      "high_usd": 2500,
+      "price_factors": [
+        "Paint correction needed first",
+        "Coating grade and warranty length",
+        "Vehicle size",
+        "Number of layers"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/ceramic-coating"
+    },
+    {
+      "slug": "mobile-mechanic",
+      "trade": "mobile mechanic",
+      "category": "Auto & Transport",
+      "unit": "hour",
+      "unit_label": "per labor hour",
+      "low_usd": 75,
+      "typical_usd": 110,
+      "high_usd": 175,
+      "price_factors": [
+        "Coming to the customer (trip fee)",
+        "Diagnostic vs. repair",
+        "Parts cost and markup",
+        "Vehicle make"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/mobile-mechanic"
+    },
+    {
+      "slug": "windshield-repair",
+      "trade": "windshield repair",
+      "category": "Auto & Transport",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 60,
+      "typical_usd": 150,
+      "high_usd": 450,
+      "price_factors": [
+        "Chip repair vs. full replacement",
+        "ADAS sensor calibration needed",
+        "Glass type (OEM vs. aftermarket)",
+        "Mobile vs. in-shop"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/windshield-repair"
+    },
+    {
+      "slug": "paintless-dent-repair",
+      "trade": "paintless dent repair",
+      "category": "Auto & Transport",
+      "unit": "job",
+      "unit_label": "per panel",
+      "low_usd": 75,
+      "typical_usd": 150,
+      "high_usd": 500,
+      "price_factors": [
+        "Dent size and depth",
+        "Location and access (creases are hardest)",
+        "Number of dents",
+        "Hail damage volume"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/paintless-dent-repair"
+    },
+    {
+      "slug": "towing",
+      "trade": "towing",
+      "category": "Auto & Transport",
+      "unit": "job",
+      "unit_label": "per tow",
+      "low_usd": 75,
+      "typical_usd": 150,
+      "high_usd": 400,
+      "price_factors": [
+        "Distance (hook fee plus per mile)",
+        "Vehicle size and type",
+        "After-hours timing",
+        "Winch-out or recovery"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/towing"
+    },
+    {
+      "slug": "limo-service",
+      "trade": "limo & chauffeur service",
+      "category": "Auto & Transport",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 75,
+      "typical_usd": 125,
+      "high_usd": 300,
+      "price_factors": [
+        "Vehicle (sedan, SUV, stretch, party bus)",
+        "Hours booked (with a minimum)",
+        "Event type (wedding, prom, corporate)",
+        "Gratuity and fuel surcharge"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/limo-service"
+    },
+    {
+      "slug": "auto-upholstery",
+      "trade": "auto upholstery",
+      "category": "Auto & Transport",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 150,
+      "typical_usd": 600,
+      "high_usd": 3000,
+      "price_factors": [
+        "Scope (single seat vs. full interior)",
+        "Material (cloth, leather, vinyl)",
+        "Repair vs. full reupholster",
+        "Custom or show work"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/auto-upholstery"
+    },
+    {
+      "slug": "interior-design",
+      "trade": "interior design",
+      "category": "Home Services",
+      "unit": "room",
+      "unit_label": "per room",
+      "low_usd": 500,
+      "typical_usd": 1500,
+      "high_usd": 5000,
+      "price_factors": [
+        "Scope (consultation vs. full design)",
+        "Per room vs. hourly vs. percentage of budget",
+        "Sourcing and procurement",
+        "Your reputation and market"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/interior-design"
+    },
+    {
+      "slug": "home-staging",
+      "trade": "home staging",
+      "category": "Home Services",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 800,
+      "typical_usd": 2500,
+      "high_usd": 8000,
+      "price_factors": [
+        "Home size and rooms staged",
+        "Occupied vs. vacant (furniture rental)",
+        "Staging duration (monthly rental)",
+        "Market tier"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/home-staging"
+    },
+    {
+      "slug": "home-organizing",
+      "trade": "home organizing",
+      "category": "Home Services",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 50,
+      "typical_usd": 80,
+      "high_usd": 150,
+      "price_factors": [
+        "Space size and clutter level",
+        "Number of organizers on the job",
+        "Products and supplies",
+        "Hauling donations away"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/home-organizing"
+    },
+    {
+      "slug": "commercial-cleaning",
+      "trade": "commercial cleaning",
+      "category": "Home Services",
+      "unit": "sqft",
+      "unit_label": "per square foot",
+      "low_usd": 0.05,
+      "typical_usd": 0.12,
+      "high_usd": 0.25,
+      "price_factors": [
+        "Square footage and foot traffic",
+        "Frequency (nightly, weekly)",
+        "Scope (restrooms, floors, trash)",
+        "Monthly contract vs. one-off"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/commercial-cleaning"
+    },
+    {
+      "slug": "airbnb-cleaning",
+      "trade": "airbnb turnover cleaning",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per turnover",
+      "low_usd": 60,
+      "typical_usd": 110,
+      "high_usd": 250,
+      "price_factors": [
+        "Property size",
+        "Turnover scope (laundry, restocking)",
+        "Same-day turn timing",
+        "Supplies and linens"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/airbnb-cleaning"
+    },
+    {
+      "slug": "upholstery-cleaning",
+      "trade": "upholstery cleaning",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 75,
+      "typical_usd": 150,
+      "high_usd": 400,
+      "price_factors": [
+        "Piece type and size (sofa, sectional)",
+        "Fabric (delicate, leather)",
+        "Stains and pet odor",
+        "Number of pieces"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/upholstery-cleaning"
+    },
+    {
+      "slug": "chimney-sweep",
+      "trade": "chimney sweep",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 150,
+      "typical_usd": 250,
+      "high_usd": 500,
+      "price_factors": [
+        "Chimney type and roof access",
+        "Level of creosote buildup",
+        "Inspection included",
+        "Caps and minor repairs"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/chimney-sweep"
+    },
+    {
+      "slug": "air-duct-cleaning",
+      "trade": "air duct cleaning",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 300,
+      "typical_usd": 500,
+      "high_usd": 1000,
+      "price_factors": [
+        "Home size and number of vents",
+        "System condition",
+        "Dryer vent add-on",
+        "Sanitizing treatment"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/air-duct-cleaning"
+    },
+    {
+      "slug": "dryer-vent-cleaning",
+      "trade": "dryer vent cleaning",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 80,
+      "typical_usd": 140,
+      "high_usd": 300,
+      "price_factors": [
+        "Vent length and routing",
+        "Roof vs. side exit",
+        "Lint buildup",
+        "Bird or pest nests"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/dryer-vent-cleaning"
+    },
+    {
+      "slug": "wallpaper-installation",
+      "trade": "wallpaper installation",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per room",
+      "low_usd": 200,
+      "typical_usd": 600,
+      "high_usd": 2000,
+      "price_factors": [
+        "Wall prep and old paper removal",
+        "Pattern match and repeat",
+        "Ceiling height",
+        "Paper type (peel-and-stick vs. traditional, grasscloth)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/wallpaper-installation"
+    },
+    {
+      "slug": "smart-home-installation",
+      "trade": "smart home installation",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 150,
+      "typical_usd": 500,
+      "high_usd": 3000,
+      "price_factors": [
+        "Number and type of devices",
+        "Wiring and network needs",
+        "Integration and programming",
+        "Single device vs. whole-home"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/smart-home-installation"
+    },
+    {
+      "slug": "home-inspection",
+      "trade": "home inspection",
+      "category": "Home Services",
+      "unit": "job",
+      "unit_label": "per job",
+      "low_usd": 300,
+      "typical_usd": 450,
+      "high_usd": 800,
+      "price_factors": [
+        "Home size and age",
+        "Add-ons (radon, mold, sewer scope, termite)",
+        "Report turnaround",
+        "Location"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/home-inspection"
+    },
+    {
+      "slug": "tax-preparation",
+      "trade": "tax preparation",
+      "category": "Business & Professional",
+      "unit": "return",
+      "unit_label": "per return",
+      "low_usd": 150,
+      "typical_usd": 350,
+      "high_usd": 1200,
+      "price_factors": [
+        "Return complexity (W-2 vs. self-employed, business)",
+        "Number of forms and schedules",
+        "State returns",
+        "Bookkeeping cleanup"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/tax-preparation"
+    },
+    {
+      "slug": "business-consulting",
+      "trade": "business consulting",
+      "category": "Business & Professional",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 100,
+      "typical_usd": 250,
+      "high_usd": 600,
+      "price_factors": [
+        "Niche and seniority",
+        "Project vs. retainer",
+        "Deliverables",
+        "Client size"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/business-consulting"
+    },
+    {
+      "slug": "notary-public",
+      "trade": "notary services",
+      "category": "Business & Professional",
+      "unit": "signature",
+      "unit_label": "per signature",
+      "low_usd": 5,
+      "typical_usd": 15,
+      "high_usd": 200,
+      "price_factors": [
+        "Per-signature state maximum",
+        "Mobile travel fee",
+        "Loan signing (notary signing agent)",
+        "After-hours timing"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/notary-public"
+    },
+    {
+      "slug": "grant-writing",
+      "trade": "grant writing",
+      "category": "Business & Professional",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 1000,
+      "typical_usd": 4000,
+      "high_usd": 12000,
+      "price_factors": [
+        "Grant size and complexity",
+        "Research and needs assessment included",
+        "Nonprofit vs. business",
+        "Letter of inquiry vs. full proposal"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/grant-writing"
+    },
+    {
+      "slug": "payroll-services",
+      "trade": "payroll services",
+      "category": "Business & Professional",
+      "unit": "month",
+      "unit_label": "per month",
+      "low_usd": 100,
+      "typical_usd": 300,
+      "high_usd": 1000,
+      "price_factors": [
+        "Number of employees",
+        "Frequency (weekly, biweekly)",
+        "Tax filing and compliance",
+        "Benefits and garnishments"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/payroll-services"
+    },
+    {
+      "slug": "hr-consulting",
+      "trade": "HR consulting",
+      "category": "Business & Professional",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 100,
+      "typical_usd": 200,
+      "high_usd": 400,
+      "price_factors": [
+        "Project (handbook, compliance) vs. retainer",
+        "Company size",
+        "Specialization (compliance, recruiting)",
+        "On-call availability"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/hr-consulting"
+    },
+    {
+      "slug": "market-research",
+      "trade": "market research",
+      "category": "Business & Professional",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 2000,
+      "typical_usd": 8000,
+      "high_usd": 30000,
+      "price_factors": [
+        "Methodology (survey, interviews, secondary)",
+        "Sample size",
+        "Analysis depth",
+        "Report and presentation"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/market-research"
+    },
+    {
+      "slug": "virtual-receptionist",
+      "trade": "virtual receptionist",
+      "category": "Business & Professional",
+      "unit": "month",
+      "unit_label": "per month",
+      "low_usd": 100,
+      "typical_usd": 300,
+      "high_usd": 1000,
+      "price_factors": [
+        "Call volume and minutes",
+        "Hours (business vs. 24/7)",
+        "Scope (scheduling, intake)",
+        "Bilingual support"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/virtual-receptionist"
+    },
+    {
+      "slug": "business-plan-writing",
+      "trade": "business plan writing",
+      "category": "Business & Professional",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 500,
+      "typical_usd": 2000,
+      "high_usd": 7000,
+      "price_factors": [
+        "Purpose (loan, investor, internal)",
+        "Financial modeling depth",
+        "Market research included",
+        "Length and polish"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/business-plan-writing"
+    },
+    {
+      "slug": "public-relations",
+      "trade": "public relations",
+      "category": "Business & Professional",
+      "unit": "month",
+      "unit_label": "per month (retainer)",
+      "low_usd": 1500,
+      "typical_usd": 5000,
+      "high_usd": 15000,
+      "price_factors": [
+        "Scope (media outreach, press, crisis)",
+        "Retainer vs. project",
+        "Agency reputation and media contacts",
+        "Deliverables"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/public-relations"
+    },
+    {
+      "slug": "podcast-editing",
+      "trade": "podcast editing",
+      "category": "Creative & Freelance",
+      "unit": "episode",
+      "unit_label": "per episode",
+      "low_usd": 50,
+      "typical_usd": 150,
+      "high_usd": 500,
+      "price_factors": [
+        "Episode length",
+        "Editing level (cuts vs. full production with music and mixing)",
+        "Number of hosts and tracks",
+        "Show notes and transcription add-ons"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/podcast-editing"
+    },
+    {
+      "slug": "photo-retouching",
+      "trade": "photo retouching",
+      "category": "Creative & Freelance",
+      "unit": "image",
+      "unit_label": "per image",
+      "low_usd": 2,
+      "typical_usd": 10,
+      "high_usd": 75,
+      "price_factors": [
+        "Retouch level (basic color vs. high-end skin, composite)",
+        "Volume and batch size",
+        "Turnaround",
+        "Usage rights"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/photo-retouching"
+    },
+    {
+      "slug": "illustration",
+      "trade": "illustration",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 150,
+      "typical_usd": 600,
+      "high_usd": 3000,
+      "price_factors": [
+        "Complexity and detail",
+        "Usage and licensing (editorial vs. commercial)",
+        "Revision rounds",
+        "Exclusivity"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/illustration"
+    },
+    {
+      "slug": "animation",
+      "trade": "animation & motion graphics",
+      "category": "Creative & Freelance",
+      "unit": "minute",
+      "unit_label": "per finished minute",
+      "low_usd": 1000,
+      "typical_usd": 3000,
+      "high_usd": 10000,
+      "price_factors": [
+        "Style (motion graphics vs. character animation)",
+        "Length",
+        "Script, voiceover, and sound",
+        "Revision rounds"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/animation"
+    },
+    {
+      "slug": "3d-rendering",
+      "trade": "3d rendering",
+      "category": "Creative & Freelance",
+      "unit": "image",
+      "unit_label": "per render",
+      "low_usd": 150,
+      "typical_usd": 500,
+      "high_usd": 2500,
+      "price_factors": [
+        "Complexity (product, exterior, interior)",
+        "Photorealism level",
+        "Modeling from scratch vs. provided files",
+        "Animation or walkthrough"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/3d-rendering"
+    },
+    {
+      "slug": "ghostwriting",
+      "trade": "ghostwriting",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 5000,
+      "typical_usd": 20000,
+      "high_usd": 60000,
+      "price_factors": [
+        "Length (article vs. book)",
+        "Research and interviews",
+        "Subject expertise required",
+        "No author credit"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/ghostwriting"
+    },
+    {
+      "slug": "book-editing",
+      "trade": "book editing",
+      "category": "Creative & Freelance",
+      "unit": "word",
+      "unit_label": "per word",
+      "low_usd": 0.01,
+      "typical_usd": 0.03,
+      "high_usd": 0.08,
+      "price_factors": [
+        "Edit type (developmental, copyedit, proofread)",
+        "Word count",
+        "Genre and complexity",
+        "Turnaround"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/book-editing"
+    },
+    {
+      "slug": "proofreading",
+      "trade": "proofreading",
+      "category": "Creative & Freelance",
+      "unit": "word",
+      "unit_label": "per word",
+      "low_usd": 0.01,
+      "typical_usd": 0.02,
+      "high_usd": 0.04,
+      "price_factors": [
+        "Word count",
+        "Technical or academic complexity",
+        "Rush turnaround",
+        "Formatting"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/proofreading"
+    },
+    {
+      "slug": "technical-writing",
+      "trade": "technical writing",
+      "category": "Creative & Freelance",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 50,
+      "typical_usd": 90,
+      "high_usd": 175,
+      "price_factors": [
+        "Subject complexity (API docs, engineering)",
+        "Research and SME interviews",
+        "Deliverable (docs, manuals, whitepaper)",
+        "Tooling and formats"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/technical-writing"
+    },
+    {
+      "slug": "presentation-design",
+      "trade": "presentation design",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per deck",
+      "low_usd": 300,
+      "typical_usd": 1500,
+      "high_usd": 8000,
+      "price_factors": [
+        "Number of slides",
+        "Design level (template vs. custom, animated)",
+        "Content and storytelling vs. polish only",
+        "Turnaround"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/presentation-design"
+    },
+    {
+      "slug": "data-analysis",
+      "trade": "data analysis",
+      "category": "Creative & Freelance",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 1000,
+      "typical_usd": 4000,
+      "high_usd": 20000,
+      "price_factors": [
+        "Data size and cleanliness",
+        "Analysis depth (descriptive vs. modeling)",
+        "Deliverable (report, dashboard)",
+        "One-off vs. ongoing"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/data-analysis"
+    },
+    {
+      "slug": "ppc-management",
+      "trade": "PPC management",
+      "category": "Creative & Freelance",
+      "unit": "month",
+      "unit_label": "per month (retainer)",
+      "low_usd": 500,
+      "typical_usd": 1500,
+      "high_usd": 5000,
+      "price_factors": [
+        "Ad spend managed",
+        "Number of platforms and campaigns",
+        "Flat fee vs. percentage of spend",
+        "Reporting depth"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/ppc-management"
+    },
+    {
+      "slug": "personal-chef",
+      "trade": "personal chef",
+      "category": "Food & Culinary",
+      "unit": "event",
+      "unit_label": "per event",
+      "low_usd": 200,
+      "typical_usd": 500,
+      "high_usd": 1500,
+      "price_factors": [
+        "Number of guests and courses",
+        "Groceries included or passed through",
+        "One-off event vs. weekly service",
+        "Menu complexity and dietary needs"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/personal-chef"
+    },
+    {
+      "slug": "meal-prep-service",
+      "trade": "meal prep service",
+      "category": "Food & Culinary",
+      "unit": "week",
+      "unit_label": "per week",
+      "low_usd": 100,
+      "typical_usd": 250,
+      "high_usd": 500,
+      "price_factors": [
+        "Meals and servings per week",
+        "Groceries included",
+        "Dietary customization",
+        "Delivery"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/meal-prep-service"
+    },
+    {
+      "slug": "cooking-classes",
+      "trade": "cooking classes",
+      "category": "Food & Culinary",
+      "unit": "class",
+      "unit_label": "per person",
+      "low_usd": 40,
+      "typical_usd": 85,
+      "high_usd": 200,
+      "price_factors": [
+        "Group vs. private",
+        "Ingredients included",
+        "Cuisine complexity",
+        "In-home vs. venue"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/cooking-classes"
+    },
+    {
+      "slug": "charcuterie-boards",
+      "trade": "charcuterie boards",
+      "category": "Food & Culinary",
+      "unit": "board",
+      "unit_label": "per board",
+      "low_usd": 50,
+      "typical_usd": 100,
+      "high_usd": 400,
+      "price_factors": [
+        "Board size and servings",
+        "Ingredient quality (artisan cheeses and meats)",
+        "Board vs. grazing table",
+        "Delivery and setup"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/charcuterie-boards"
+    },
+    {
+      "slug": "custom-baking",
+      "trade": "custom baking",
+      "category": "Food & Culinary",
+      "unit": "order",
+      "unit_label": "per order",
+      "low_usd": 25,
+      "typical_usd": 60,
+      "high_usd": 250,
+      "price_factors": [
+        "Item type and quantity (per dozen)",
+        "Decoration and customization",
+        "Specialty or dietary ingredients",
+        "Order size"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/custom-baking"
+    },
+    {
+      "slug": "mobile-coffee-cart",
+      "trade": "mobile coffee cart",
+      "category": "Food & Culinary",
+      "unit": "event",
+      "unit_label": "per event",
+      "low_usd": 500,
+      "typical_usd": 1200,
+      "high_usd": 3500,
+      "price_factors": [
+        "Event length and guest count",
+        "Drinks included vs. per-drink",
+        "Number of baristas",
+        "Travel and setup"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/mobile-coffee-cart"
+    },
+    {
+      "slug": "dog-boarding",
+      "trade": "dog boarding",
+      "category": "Pet & Childcare",
+      "unit": "night",
+      "unit_label": "per night",
+      "low_usd": 35,
+      "typical_usd": 55,
+      "high_usd": 90,
+      "price_factors": [
+        "In-home vs. facility",
+        "Number and size of dogs",
+        "Special needs or medication",
+        "Holidays and peak weeks"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/dog-boarding"
+    },
+    {
+      "slug": "mobile-pet-grooming",
+      "trade": "mobile pet grooming",
+      "category": "Pet & Childcare",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 75,
+      "typical_usd": 120,
+      "high_usd": 200,
+      "price_factors": [
+        "Dog size and coat type",
+        "Mobile convenience premium",
+        "Matting and condition",
+        "Add-ons (nails, teeth, de-shedding)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/mobile-pet-grooming"
+    },
+    {
+      "slug": "pet-waste-removal",
+      "trade": "pet waste removal",
+      "category": "Pet & Childcare",
+      "unit": "visit",
+      "unit_label": "per visit",
+      "low_usd": 12,
+      "typical_usd": 18,
+      "high_usd": 35,
+      "price_factors": [
+        "Yard size",
+        "Number of dogs",
+        "Frequency (weekly is the core)",
+        "One-time cleanup vs. recurring"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/pet-waste-removal"
+    },
+    {
+      "slug": "horse-training",
+      "trade": "horse training",
+      "category": "Pet & Childcare",
+      "unit": "month",
+      "unit_label": "per month",
+      "low_usd": 600,
+      "typical_usd": 1000,
+      "high_usd": 2500,
+      "price_factors": [
+        "Training type (groundwork, under saddle, show)",
+        "Board included or separate",
+        "Discipline",
+        "Trainer reputation and results"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/horse-training"
+    },
+    {
+      "slug": "aquarium-maintenance",
+      "trade": "aquarium maintenance",
+      "category": "Pet & Childcare",
+      "unit": "visit",
+      "unit_label": "per visit",
+      "low_usd": 50,
+      "typical_usd": 100,
+      "high_usd": 250,
+      "price_factors": [
+        "Tank size and type (freshwater, saltwater, reef)",
+        "Service frequency",
+        "Livestock complexity",
+        "One-time setup vs. recurring"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/aquarium-maintenance"
+    },
+    {
+      "slug": "nanny",
+      "trade": "nanny services",
+      "category": "Pet & Childcare",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 18,
+      "typical_usd": 25,
+      "high_usd": 40,
+      "price_factors": [
+        "Number and ages of children",
+        "Full-time vs. part-time",
+        "Duties (cooking, housework, driving)",
+        "Experience and certifications"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/nanny"
+    },
+    {
+      "slug": "waxing",
+      "trade": "waxing services",
+      "category": "Beauty & Wellness",
+      "unit": "service",
+      "unit_label": "per service",
+      "low_usd": 15,
+      "typical_usd": 50,
+      "high_usd": 120,
+      "price_factors": [
+        "Area (brow, lip, legs, Brazilian)",
+        "Hard vs. soft wax",
+        "First-time vs. maintenance",
+        "Package of areas"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/waxing"
+    },
+    {
+      "slug": "microblading",
+      "trade": "microblading",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 350,
+      "typical_usd": 600,
+      "high_usd": 1000,
+      "price_factors": [
+        "Technique (microblading, powder, combo)",
+        "Initial + touch-up included",
+        "Artist skill and portfolio",
+        "Annual color boost"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/microblading"
+    },
+    {
+      "slug": "permanent-makeup",
+      "trade": "permanent makeup",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 300,
+      "typical_usd": 550,
+      "high_usd": 900,
+      "price_factors": [
+        "Area (lip blush, eyeliner, brows)",
+        "Session + touch-up",
+        "Pigment and technique",
+        "Artist experience"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/permanent-makeup"
+    },
+    {
+      "slug": "teeth-whitening",
+      "trade": "cosmetic teeth whitening",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 75,
+      "typical_usd": 150,
+      "high_usd": 350,
+      "price_factors": [
+        "In-office session vs. take-home",
+        "Single vs. package",
+        "Mobile or event service",
+        "Treatment strength"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/teeth-whitening"
+    },
+    {
+      "slug": "eyebrow-threading",
+      "trade": "eyebrow threading",
+      "category": "Beauty & Wellness",
+      "unit": "service",
+      "unit_label": "per service",
+      "low_usd": 8,
+      "typical_usd": 18,
+      "high_usd": 40,
+      "price_factors": [
+        "Area (brows, full face)",
+        "Salon vs. mobile",
+        "Add-ons (tint, lamination)",
+        "Package"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/eyebrow-threading"
+    },
+    {
+      "slug": "hair-extensions",
+      "trade": "hair extensions",
+      "category": "Beauty & Wellness",
+      "unit": "service",
+      "unit_label": "per service",
+      "low_usd": 200,
+      "typical_usd": 600,
+      "high_usd": 2000,
+      "price_factors": [
+        "Method (tape, sew-in, fusion, wefts)",
+        "Amount of hair",
+        "Hair quality (cost passed through)",
+        "Maintenance and move-ups"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/hair-extensions"
+    },
+    {
+      "slug": "nutrition-coaching",
+      "trade": "nutrition coaching",
+      "category": "Beauty & Wellness",
+      "unit": "month",
+      "unit_label": "per month",
+      "low_usd": 100,
+      "typical_usd": 250,
+      "high_usd": 600,
+      "price_factors": [
+        "One-on-one vs. group",
+        "Custom meal plans",
+        "Check-in frequency",
+        "Credentials (registered dietitian vs. coach)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/nutrition-coaching"
+    },
+    {
+      "slug": "pilates-instruction",
+      "trade": "pilates instruction",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 50,
+      "typical_usd": 90,
+      "high_usd": 150,
+      "price_factors": [
+        "Private vs. group or duet",
+        "Reformer vs. mat",
+        "Studio vs. in-home",
+        "Package size"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/pilates-instruction"
+    },
+    {
+      "slug": "group-fitness-instructor",
+      "trade": "group fitness instruction",
+      "category": "Beauty & Wellness",
+      "unit": "class",
+      "unit_label": "per class",
+      "low_usd": 30,
+      "typical_usd": 60,
+      "high_usd": 120,
+      "price_factors": [
+        "Gym contract vs. your own class",
+        "Class type and certification",
+        "Attendance (for your own class)",
+        "Location"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/group-fitness-instructor"
+    },
+    {
+      "slug": "acupuncture",
+      "trade": "acupuncture",
+      "category": "Beauty & Wellness",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 75,
+      "typical_usd": 110,
+      "high_usd": 200,
+      "price_factors": [
+        "Initial (longer) vs. follow-up",
+        "Add-ons (cupping, herbs)",
+        "Package",
+        "Location and specialty"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/acupuncture"
+    },
+    {
+      "slug": "wedding-planning",
+      "trade": "wedding planning",
+      "category": "Events & Photography",
+      "unit": "event",
+      "unit_label": "per wedding",
+      "low_usd": 2000,
+      "typical_usd": 5000,
+      "high_usd": 20000,
+      "price_factors": [
+        "Full vs. partial vs. day-of coordination",
+        "Guest count and complexity",
+        "Vendor management",
+        "Percentage of budget vs. flat fee"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/wedding-planning"
+    },
+    {
+      "slug": "florist",
+      "trade": "event florist",
+      "category": "Events & Photography",
+      "unit": "event",
+      "unit_label": "per event",
+      "low_usd": 800,
+      "typical_usd": 3000,
+      "high_usd": 12000,
+      "price_factors": [
+        "Scale (bouquets to full install)",
+        "Flower types and seasonality",
+        "Setup, delivery, and teardown",
+        "Arches and installations"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/florist"
+    },
+    {
+      "slug": "photo-booth-rental",
+      "trade": "photo booth rental",
+      "category": "Events & Photography",
+      "unit": "event",
+      "unit_label": "per event",
+      "low_usd": 400,
+      "typical_usd": 700,
+      "high_usd": 1500,
+      "price_factors": [
+        "Hours of coverage",
+        "Booth type (open-air, 360, mirror)",
+        "Props, backdrop, and prints",
+        "Attendant"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/photo-booth-rental"
+    },
+    {
+      "slug": "balloon-decor",
+      "trade": "balloon decor",
+      "category": "Events & Photography",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 150,
+      "typical_usd": 500,
+      "high_usd": 2500,
+      "price_factors": [
+        "Size or length of installation",
+        "Balloon quality",
+        "Custom colors and theme",
+        "Delivery, install, and teardown"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/balloon-decor"
+    },
+    {
+      "slug": "face-painting",
+      "trade": "face painting",
+      "category": "Events & Photography",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 75,
+      "typical_usd": 125,
+      "high_usd": 250,
+      "price_factors": [
+        "Event length",
+        "Number of artists",
+        "Design complexity",
+        "Travel"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/face-painting"
+    },
+    {
+      "slug": "wedding-officiant",
+      "trade": "wedding officiant",
+      "category": "Events & Photography",
+      "unit": "ceremony",
+      "unit_label": "per ceremony",
+      "low_usd": 200,
+      "typical_usd": 500,
+      "high_usd": 1000,
+      "price_factors": [
+        "Custom vs. standard ceremony",
+        "Rehearsal attendance",
+        "Travel",
+        "Legal filing of the license"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/wedding-officiant"
+    },
+    {
+      "slug": "event-videography",
+      "trade": "event videography",
+      "category": "Events & Photography",
+      "unit": "event",
+      "unit_label": "per event",
+      "low_usd": 1000,
+      "typical_usd": 2500,
+      "high_usd": 8000,
+      "price_factors": [
+        "Hours of coverage",
+        "Number of shooters",
+        "Deliverables (highlight + full film)",
+        "Drone and extras"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/event-videography"
+    },
+    {
+      "slug": "drone-photography",
+      "trade": "drone photography",
+      "category": "Events & Photography",
+      "unit": "job",
+      "unit_label": "per shoot",
+      "low_usd": 200,
+      "typical_usd": 450,
+      "high_usd": 1200,
+      "price_factors": [
+        "Photo vs. video",
+        "Editing included",
+        "Part 107 license and insurance",
+        "Industry (real estate, construction, events)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/drone-photography"
+    },
+    {
+      "slug": "language-lessons",
+      "trade": "language lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 25,
+      "typical_usd": 45,
+      "high_usd": 90,
+      "price_factors": [
+        "Language (common vs. rare)",
+        "Level and goal",
+        "Group vs. private",
+        "In-person vs. online / native speaker"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/language-lessons"
+    },
+    {
+      "slug": "swim-lessons",
+      "trade": "swim lessons",
+      "category": "Lessons & Coaching",
+      "unit": "lesson",
+      "unit_label": "per lesson",
+      "low_usd": 25,
+      "typical_usd": 45,
+      "high_usd": 90,
+      "price_factors": [
+        "Private vs. group",
+        "Age (kids vs. adults)",
+        "Location (your pool, their pool, facility)",
+        "Level (water safety vs. competitive)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/swim-lessons"
+    },
+    {
+      "slug": "art-lessons",
+      "trade": "art lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 30,
+      "typical_usd": 55,
+      "high_usd": 100,
+      "price_factors": [
+        "Medium",
+        "Private vs. group",
+        "Materials included",
+        "Level and age"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/art-lessons"
+    },
+    {
+      "slug": "singing-lessons",
+      "trade": "singing lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 30,
+      "typical_usd": 60,
+      "high_usd": 120,
+      "price_factors": [
+        "Level and goal (hobby vs. audition, pro)",
+        "Lesson length",
+        "In-person vs. online",
+        "Your credentials and performance background"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/singing-lessons"
+    },
+    {
+      "slug": "college-admissions-consulting",
+      "trade": "college admissions consulting",
+      "category": "Lessons & Coaching",
+      "unit": "package",
+      "unit_label": "per package",
+      "low_usd": 1500,
+      "typical_usd": 4000,
+      "high_usd": 15000,
+      "price_factors": [
+        "Scope (essay help vs. comprehensive multi-year)",
+        "Number of schools and applications",
+        "Hourly vs. package",
+        "Your track record (admit results)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/college-admissions-consulting"
+    },
+    {
+      "slug": "coding-lessons",
+      "trade": "coding lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 40,
+      "typical_usd": 75,
+      "high_usd": 150,
+      "price_factors": [
+        "Level (kids intro vs. adult career switch)",
+        "Private vs. group",
+        "Language and stack",
+        "Project-based"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/coding-lessons"
+    },
+    {
+      "slug": "golf-lessons",
+      "trade": "golf lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 50,
+      "typical_usd": 90,
+      "high_usd": 200,
+      "price_factors": [
+        "PGA certification",
+        "Private vs. group clinic",
+        "Video and launch-monitor tech",
+        "Package"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/golf-lessons"
+    },
+    {
+      "slug": "tennis-lessons",
+      "trade": "tennis lessons",
+      "category": "Lessons & Coaching",
+      "unit": "hour",
+      "unit_label": "per hour",
+      "low_usd": 40,
+      "typical_usd": 75,
+      "high_usd": 150,
+      "price_factors": [
+        "Certification and level",
+        "Private vs. group clinic",
+        "Court fees",
+        "Junior vs. adult / competitive"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/tennis-lessons"
+    },
+    {
+      "slug": "public-speaking-coaching",
+      "trade": "public speaking coaching",
+      "category": "Lessons & Coaching",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 100,
+      "typical_usd": 200,
+      "high_usd": 500,
+      "price_factors": [
+        "One-on-one vs. workshop",
+        "Goal (keynote, pitch, wedding speech)",
+        "Package",
+        "Your credentials"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/public-speaking-coaching"
+    },
+    {
+      "slug": "career-coaching",
+      "trade": "career coaching",
+      "category": "Lessons & Coaching",
+      "unit": "session",
+      "unit_label": "per session",
+      "low_usd": 100,
+      "typical_usd": 175,
+      "high_usd": 400,
+      "price_factors": [
+        "Scope (single session vs. package)",
+        "Specialization (executive, tech)",
+        "Deliverables (resume, LinkedIn, interview prep)",
+        "Level"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/career-coaching"
+    },
+    {
+      "slug": "resin-art",
+      "trade": "resin art",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per item",
+      "low_usd": 30,
+      "typical_usd": 80,
+      "high_usd": 350,
+      "price_factors": [
+        "Size and complexity",
+        "Materials (resin, pigments, molds)",
+        "Custom vs. ready-made",
+        "Finishing time and layers"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/resin-art"
+    },
+    {
+      "slug": "embroidery",
+      "trade": "custom embroidery",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per item",
+      "low_usd": 10,
+      "typical_usd": 25,
+      "high_usd": 80,
+      "price_factors": [
+        "Stitch count and design complexity",
+        "Item (hat, shirt, jacket)",
+        "Quantity (bulk discounts)",
+        "Digitizing the design"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/embroidery"
+    },
+    {
+      "slug": "sign-making",
+      "trade": "sign making",
+      "category": "Makers & Crafts",
+      "unit": "sign",
+      "unit_label": "per sign",
+      "low_usd": 50,
+      "typical_usd": 200,
+      "high_usd": 1500,
+      "price_factors": [
+        "Material (vinyl, wood, metal, acrylic)",
+        "Size",
+        "Custom design",
+        "Installation (for business signage)"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/sign-making"
+    },
+    {
+      "slug": "leatherwork",
+      "trade": "leatherwork",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per item",
+      "low_usd": 40,
+      "typical_usd": 120,
+      "high_usd": 600,
+      "price_factors": [
+        "Leather quality",
+        "Item (wallet, belt, bag)",
+        "Hand-stitched vs. machine",
+        "Custom tooling"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/leatherwork"
+    },
+    {
+      "slug": "macrame",
+      "trade": "macrame",
+      "category": "Makers & Crafts",
+      "unit": "item",
+      "unit_label": "per item",
+      "low_usd": 25,
+      "typical_usd": 70,
+      "high_usd": 300,
+      "price_factors": [
+        "Size and complexity (plant hanger vs. large wall art)",
+        "Cord quality and quantity",
+        "Custom design",
+        "Hours of work"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/macrame"
+    },
+    {
+      "slug": "custom-stickers",
+      "trade": "custom stickers",
+      "category": "Makers & Crafts",
+      "unit": "order",
+      "unit_label": "per order",
+      "low_usd": 15,
+      "typical_usd": 50,
+      "high_usd": 250,
+      "price_factors": [
+        "Quantity",
+        "Die-cut vs. sheet",
+        "Material (vinyl, holographic)",
+        "Design included"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/custom-stickers"
+    },
+    {
+      "slug": "calligraphy",
+      "trade": "calligraphy",
+      "category": "Makers & Crafts",
+      "unit": "project",
+      "unit_label": "per project",
+      "low_usd": 50,
+      "typical_usd": 200,
+      "high_usd": 1500,
+      "price_factors": [
+        "Project (envelopes, signage, invitations)",
+        "Quantity",
+        "Ink and materials",
+        "Rush turnaround"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/calligraphy"
+    },
+    {
+      "slug": "commissioned-art",
+      "trade": "commissioned art",
+      "category": "Makers & Crafts",
+      "unit": "piece",
+      "unit_label": "per piece",
+      "low_usd": 150,
+      "typical_usd": 500,
+      "high_usd": 3000,
+      "price_factors": [
+        "Size and medium",
+        "Complexity and number of subjects",
+        "From reference vs. from life",
+        "Framing"
+      ],
+      "page": "https://getwhattocharge.com/how-much-to-charge-for/commissioned-art"
+    }
+  ]
+}
