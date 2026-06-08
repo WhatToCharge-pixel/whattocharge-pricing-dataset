@@ -1,6 +1,6 @@
 # WhatToCharge Pricing Rates Dataset
 
-An open dataset of typical **2026 US price ranges for 195+ service, trade, and maker professions**, each expressed in the unit that trade actually charges in (per hour, per square foot, per job, per session, per word, monthly retainer, and so on).
+An open dataset of typical **2026 US price ranges for hundreds of service, trade, and maker professions**, each expressed in the unit that trade actually charges in (per hour, per square foot, per job, per session, per word, monthly retainer, and so on).
 
 It powers the free pricing calculator at **[getwhattocharge.com](https://getwhattocharge.com)** and is published here so anyone can use it.
 
